@@ -1,14 +1,14 @@
-## Title: Excercise Tracker
+# Title: Excercise Tracker
 
-# Description: 
+## Description: 
 
-A website that tracks excercise/workout entries into a single table. Add a new excercise entry or edit an exsisting one.
+A website that tracks excercise/workout entries into a single table. Add a new excercise entry or edit an exsisting one. This fullstack MERN project was built during CS290 - Web Development.
 
-# How it's made:
+## How it's made:
 
 This Exercise Tracker website, developed using React and MongoDB with Mongoose, allows users to seamlessly log and manage their workouts. The React frontend employs React Router for navigation, offering pages for adding, editing, and viewing exercises. The MongoDB backend stores exercise data, with Mongoose providing a structured schema. The application emphasizes simplicity, featuring a clear user interface with a header providing a brief overview and a footer displaying the modification date and copyright information. Users can effortlessly track and update their exercise routines through a straightforward and intuitive interface.
 
-# How to run locally:
+## How to run locally:
 
 Backend (Server):
 1) Open a terminal in the backend directory
