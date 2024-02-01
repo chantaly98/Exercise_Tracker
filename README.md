@@ -15,7 +15,7 @@ Backend (Server):
 2) Make sure node dependencies are installed "npm install"
 3) From MongoDB get your connection string for the exercise collection, then create a ".env" file with the following:
 
-MONGODB_CONNECT_STRING=mongodb+srv://<username>:<password>@cluster0.vm4kkbj.mongodb.net/exercises_db?retryWrites=true&w=majority
+MONGODB_CONNECT_STRING=mongodb+srv://username:password@cluster0.vm4kkbj.mongodb.net/exercises_db?retryWrites=true&w=majority
 PORT=3000
 
 **(Replace the string above with your own connection string from MongoDB and include your username and password)
