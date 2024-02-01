@@ -1,0 +1,266 @@
+/*  ===== MOBILE styles (inherited by all devices) ===== 
+/*  ===== See tablet, desktop, and print @media queries at the bottom.
+
+
+/*   ----- Imports  -----  */
+                            /* ...or hosted services like Google Fonts
+@import url(//fonts.googleapis.com/css?family=Font+Name); */
+
+/* @import '../node_modules/modern-normalize/modern-normalize.css';
+                              npm install modern-normalize 
+                              Resets elements for browser consistancy.  
+                              http://nicolasgallagher.com/about-normalize-css/ 
+                            */
+
+/* @import "component1.css";    Component-specific stylesheets, if any */
+
+
+/*   ----- Variables Optional-----  */
+:root {}
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {                     /* Can alternatively define in html {} or :root {} */
+  color:#3d3d3d;
+  background-color:#bfe4fc ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: size 16px;
+  border: none;
+  margin: 0;
+  padding: 5px;
+}
+
+/* ----- Anchors ----- Text links */
+a {}
+a:link {}
+a:hover {}
+a:active {}
+a:visited {}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+  border-bottom: rgb(143, 143, 143);
+  padding-bottom: 8px;
+  line-height: normal;
+  vertical-align: middle;
+  border: none;
+  font-size: 16px;
+  font-weight: normal;
+  margin: auto;
+}
+/*remove the bullets, margin and padding from list */
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5b89a8; /* background color of nav bar */
+}
+nav ul li{
+  float:left;
+  margin-right: 0.3em;
+}
+nav ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none; /* no underline */
+  background-color: white; /* color of tab */
+  color: #3d3d3d;  /* color of text*/
+  border: 1px solid #5b89a8;
+}
+nav ul li a:hover{
+  color: white;
+  background-color:#5b89a8;
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+/*  ----- Page layout blocks -----  */
+header, footer {
+  color:#4a4949;
+  background-color: white;
+  border:none;
+  font-size: 16x;
+  font-weight: normal;
+  margin: 0;
+  padding: 1px;
+}
+main {
+  color:#3d3d3d;
+  background-color:white;
+  border: none ;
+  padding: 15px;;
+}
+section {}
+  article {}
+    #topic1 {}
+    #topic2 {}
+    #gallery1 {}
+    #gallery2 {}
+div {}
+aside {}
+
+
+/*  -----  Typography  ----- */
+p {}
+br {}
+ol, ul, dl {}
+li {}
+dt {}
+dd {}
+
+h1, h2, h3, h4, h5, h6 {} /* Define consistant font family.*/
+h1 {
+  color: #002576;
+  font-style: italic;
+}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+abbr {}
+acronym {}
+address {}
+blockquote {}
+  q {}
+  cite {}
+em {}
+hr {}
+mark {}
+s {}
+span {}
+strong {}
+sub {}
+sup {}
+time {}
+
+/*  ----- Coding or instructional typography ----- */
+pre {}
+code {}
+kbd {}
+samp {}
+var {}
+del {} 
+ins {}
+
+/*  ----- Table ----- */
+table {
+  border-collapse: collapse;
+  margin: auto;
+  border: none;
+}
+caption {
+  font-weight: bold;
+}
+thead {
+  background-color: #bfe4fc;
+}
+tbody {
+  background-color: #daedfb;
+}
+tfoot {}
+tr:hover {
+  background-color: white;
+}
+  tr:nth-child(odd) {
+  }
+tr, th, td{
+  padding: 8px;
+}
+td {}
+  td:nth-child(1) {}
+colgroup {}
+data {}
+datalist {}
+
+
+/*  ----- Form ----- */
+form {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 15 px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  background-color: #daedfb;
+  border: none;
+}
+
+fieldset {}
+legend {
+  font-weight: bold;
+}
+label {padding: 10px;}
+  button {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:2px;
+  }
+  button:hover{
+    color: #3d3d3d;
+    background-color: rgb(201, 219, 247);
+    border-radius: 6px ;
+    padding: 2px;
+    margin: auto;
+  }
+  input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px;
+    margin: 2px;
+  }
+
+  output {}
+  meter {}
+  progress {}
+  select {
+    padding: 2px;
+  }
+    optgroup {}
+    option {}
+  textarea {}
+
+/* ----- Media ----- */
+figure {}
+  figcaption {}
+img {}
+svg {}
+picture {}
+  source {}
+iframe {}
+video {}
+audio {}
+embed {}
+object {}
+
+
+/*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.floatright {}
+.floatleft {}
+.center-middle {}
+
+.ten {}
+.twenty {}
+.thirty {}
+.forty {}
+.fifty {}
+.sixty {}
+.seventy {}
+.eighty {}
+
+.radius {}
+.circle {}
+.boxshadow {}
+.tshadow {} 
+.gradient {}
+.shape {}
+
+@keyframes App-logo {}
+
+/*   ===== TABLET  media query overrides mobile styles ===== */
+@media all and (min-width: 600px) {}
+
+/*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+@media all and (min-width: 1080px) {}
+
+/*   ===== PRINT  media query overrides previous styles =====  */
+@media print {}
